@@ -15,6 +15,23 @@ int main(){
 		
 	const int num1=5;
 		//if you use const, you can't change the variable.
-		
 	
+	
+	/*shift operator: <<(left shift operator), >>(right shift operator)
+	5>>2 =
+		5= 00000000000000101
+		>>2
+		1  00000000000010100
+	*/
+	
+	int a1;
+	char ans;
+	
+	cout <<"정수를 입력하세요"<<endl;
+	cin>> a1;
+	
+	ans= (a1==1) ? 'A' : 'B';
+		//if true ans='A', else ans='B'.
+	cout << ans << endl;
+	return 0;
 }
